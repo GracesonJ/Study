@@ -50,3 +50,8 @@ console.log(`Before applying Decrement : r= ${r}`);
 // console.log(`r= ${r}`);
 console.log(`After applying Decrement : r= ${--r}`); //pre Decrement operator
 console.log(`r= ${r}`);
+
+// short hand operator
+
+g=20
+console.log(`g = g + 50  = ${g += 20}`);
