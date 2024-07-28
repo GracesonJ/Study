@@ -1,0 +1,68 @@
+Functions
+- - - - - 
+
+- Functions are used to do task repeated at different position.
+
+- Part of Functions
+--------------------
+    1) Function definition
+        - statements
+        - syntax 
+            function name (arg1,arg2,....argn){
+                statement
+            }
+    2) Function call
+        - to execute the statements
+        - syntax
+            name()
+
+- (Aruguments are the values given to a functions to do certain task)
+- (variables inside a function have function scope or block scope)
+- to access the variable outside the function we nee dto return the variable.
+- No statement after the return statement will be executed. so return statement should be placed as the last statementof the function.
+ 
+
+ - Functional Hoisting
+    - Call a function before the function is defined
+    - normal functions have function Hoisting
+
+2) Arrow Function
+-------------------
+    - ES6
+    - syntax
+        //function defination
+        const variable = (arg1,arg2,....argn)=>{
+            statement
+        }
+        //function call
+        variable()
+
+    - functional hoisting not possible in arrow function.
+
+3) predefined functions- builtin functions
+---------------------------
+    - built in functions of a particular language
+    - eg: console.log()
+            typeOf()
+            parseInt()
+            Math.floor()
+            Number()
+            alret()
+            eval()
+
+4) call back functions
+-------------------------
+    - function calling another function
+    - call back function come as an argument to the another function.
+
+5) nested function
+--------------------
+
+    - function definition inside another function.
+    - closure property: property of a parent can be accessed inside a child function but not vice versa./
+
+
+
+asynchronous functions - functions with time delay. eg: setTimeouts(), API call.
+synchronous Functions - Functions without time delay.
+anonymous functions - functions without names.
